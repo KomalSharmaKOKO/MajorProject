@@ -11,7 +11,7 @@ const handleLogin = async (event) => {
     loading.style.display = 'block';
 
     try {
-        const response = await axios.post('http://localhost:3000/login', { email, password });
+        const response = await axios.post('https://majorprojectbackend-56op.onrender.com/login', { email, password });
 
         loading.style.display = 'none';
 
