@@ -38,7 +38,7 @@ const handleSubmit = async (event) => {
     };
 
     try {
-        const response = await axios.post('http://localhost:3000/register', user);
+        const response = await axios.post('https://majorprojectbackend-56op.onrender.com/register', user);
 
         // Hide loading spinner
         loading.style.display = 'none';
